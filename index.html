@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
+  <!-- Vincular Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <style>
+    /* Estilos personalizados */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .jumbotron {
+      background-image: url('img/consejos-imagenes.jpg');
+      background-size: cover;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .imma{
+        width: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img class="imma"  src="img/LOGO.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Acerca de</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portafolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Cabecera -->
+<header class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <h1 class="display-4">¡Hola, soy Jose Ramos!</h1>
+    <p class="lead">Desarrollador Web</p>
+  </div>
+</header>
+
+<!-- Acerca de mí -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="mb-4">Acerca de mí</h2>
+        <p>Desde que descubrí mi pasión por la programación web, he estado comprometido con aprender y dominar las últimas tecnologías. Mi habilidad para trabajar tanto de forma independiente como en equipo me ha permitido participar en proyectos diversos y desafiantes, siempre buscando superar las expectativas.</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="img/Imagen de WhatsApp 2024-06-01 a las 11.05.30_581c7cd8.jpg" class="img-fluid rounded-circle" alt="Tu foto">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portafolio -->
+<section id="portfolio" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Portafolio</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="img/sxZglhCpoxXCwZuRqyA7N-transformed.png" class="card-img-top" alt="Proyecto 1">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 1</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus eos minus quia autem cum similique magni excepturi blanditiis, ratione sint nihil inventore libero tenetur nesciunt quibusdam quis ducimus quidem officia obcaecati voluptatum est, sed molestias aliquam reiciendis! Porro delectus dolore aspernatur ipsa quam. Blanditiis quia commodi, vel exercitationem voluptas tenetur.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="img/por-que-aprender-python.png" class="card-img-top" alt="Proyecto 2">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 2</h5>
+            <p class="card-text">L architecto cumque, beatae consequatur et expedita reprehenderit in rem. Tempore cum eveniet quo quibusdam perferendis eos officiis non accusamus aut, doloremque accusantium! Possimus, odit molestiae? Nemo ad commodi magni harum unde totam iure nesciunt vel aliquid maiores at perspiciatis quam soluta fuga natus facilis cumque reprehenderit quo, pariatur eveniet officia minima? Inventore doloremque ipsum doloribus nostrum itaque commodi vero consequatur recusandae iste molestias!</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="img/images.png" class="card-img-top" alt="Proyecto 3">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 3</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quae vel, et doloribus voluptatem repellendus tempore eveniet aperiam perspiciatis, fugiat, ut facilis! Porro molestias nobis, tempore recusandae voluptatum eos sequi illum blanditiis commodi aliquid rem quae ipsum quod amet maiores quam voluptatem ducimus provident! Nemo itaque voluptate suscipit ducimus incidunt?</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contacto</h2>
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <form>
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea class="form-control" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Contacto</h5>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-envelope"></i> Joseramosgomez71@gmail.com</li>
+          <li><i class="fas fa-phone"></i>3145701745</li>
+          <li><i class="fas fa-map-marker-alt"></i> calle 66 #26, Bello</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Enlaces</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Redes Sociales</h5>
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Vincular Bootstrap JS y scripts personalizados -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scripts personalizados -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
